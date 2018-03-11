@@ -1,0 +1,143 @@
+body,
+html {
+  font-family: Lato, sans-serif;
+  min-height: 100%;
+}
+
+body{
+  background: url('/img/circles-light.png');
+}
+
+.nav-bg{
+  background: url('/img/circles-light.png');
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Lato, sans-serif;
+}
+
+.black{
+  font-weight: 900;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  /* Margin bottom by footer height */
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  /* Set the fixed height of the footer here */
+  line-height: 60px;
+  /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
+
+/* Media breakpoints
+-------------------------------------------------- */
+
+@media (min-width: 320px) {
+  .logo-max {
+    width:40px;
+  }
+
+}
+
+@media (min-width: 992px) {
+  .logo-max {
+    width: 60px;
+  }
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+
+.active-valued {
+  color: #00bf72 !important;
+}
+
+.bg-valued {
+  background: linear-gradient(to right, #051937, #004d7a, #008793, #00bf72);
+}
+
+.bg-valued2 {
+  background: linear-gradient(to left, #051937, #004d7a);
+}
+
+.sep-20{
+  height: 20px;
+}
+
+.rad-10{
+  border-radius: 10px !important;
+}
+
+.lztheme{
+  background-color: #004d7a;
+}
+
+.lztheme2 {
+  background-color: #00bf72;
+}
+
+.btn-outline-lztheme {
+  color: #00bf72;
+  background-color: transparent;
+  background-image: none;
+  border-color:#00bf72;
+  text-decoration:none;
+}
+
+.btn-outline-lztheme:hover {
+  color: white;
+  background-color: #00bf72;
+  background-image: none;
+  border-color: #00bf72;
+  text-decoration:none;
+}
+
+.alignleft {
+  float: left;
+}
+
+.alignright {
+  float: right;
+}
+/*Primary color: #007bff*/
+
+.dropshad{
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+a:hover{
+  text-decoration:none;
+}
+
+a.anchor {
+  display: block;
+  position: relative;
+  top: -90px;
+  visibility: hidden;
+}
+
+#myVideo {
+
+  max-width: 100%;
+  min-height: 100%;
+}
